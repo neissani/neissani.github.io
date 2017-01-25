@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  width: 60%;
+  width: 100%;
 }
 
 h1 {
@@ -9,5 +9,6 @@ h1 {
 }
 
 img {
-  width: 100%;
+  max-width: 1000px;
+  min-width: 100px;
 }
