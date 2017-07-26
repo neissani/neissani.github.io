@@ -1,7 +1,7 @@
 body {
   background-color: #eeeeee;
   display: grid;
-  grid-template-columns: 5px 1fr 10px auto 10px 1fr 5px;
+  grid-template-columns: 5px 1fr 10px minmax(100px, 800px) 10px 1fr 5px;
   grid-template-rows: 5px 100px auto 50px;
   text-align: center;
 }
